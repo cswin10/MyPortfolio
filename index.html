@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Charlie Swinhoe - Full Stack Web Developer Portfolio</title>
+        <meta name="description" content="Explore the portfolio of Charlie Swinhoe, a full stack web developer skilled in HTML, CSS, JavaScript, React, and Node.js.">
+        <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript, React, Node.js, Charlie Swinhoe">
+        <meta name="author" content="Charlie Swinhoe">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
+    <aside class="sidebar" data-sidebar>
+        <p>Email: <a href="mailto:crcswinhoe@gmail.com">crcswinhoe@gmail.com</a></p>
+        <p>Phone: +447547804267</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/charlieswinhoe" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </aside>
+    <main>
+        <section id="about">
+            <h1>Hi! I'm Charlie Swinhoe.</h1>
+        </section>
+        <section>
+            <p>I am a full stack web developer passionate about creating engaging and efficient applications. I am from the South West of England but I travel all over the world! When I'm not building websites I love training in the gym, cooking, reading, and playing golf.</p>
+        </section>
+        <section>
+            <h2 id='prog'>Programming skills</h2>
+            <ul id="skills">
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3-alt"></i> CSS</li>
+                <li><i class="fab fa-js-square"></i> JavaScript</li>
+                <li><i class="fab fa-python"></i> Python</li>
+                <li><i class="fab fa-react"></i> React</li>
+                <li><i class="fab fa-node"></i> Node.js</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2 class="h2-headings">My Work</h2>
+            <p>No projects linked yet. Stay tuned for updates!</p>
+            <div id="upcoming-projects">
+                <h3>Upcoming projects</h3>
+                <ul id="upcoming-projects1">
+                    <li>My blog</li>
+                    <li>Travel destination finder</li>
+                    <li>TV show watchlist and recommendations</li>
+                    <li>E-Commerce site</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="einstein-quote">
+                <img src="einstein.avif" alt="Image of Albert Einstein painted on a wall" class="einstein-image">
+                <div class="quote-overlay">
+                    <p>"Creativity is intelligence having fun"</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class='h2-headings'>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
 </body>
 </html>
